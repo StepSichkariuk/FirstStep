@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block header %}
+    {% include "include/header.html" %}
+{% endblock %}
+
+{% block footer %}
+    {% include "include/footer.html" %}
+{% endblock %}
+
+{% block content %}
+    <h1>{{ header }}</h1>
+
+    <div class="content">
+        {% include "include/company_menu.html" %}
+
+        <p>{{ data }}</p>
+    </div>
+
+{% endblock %}

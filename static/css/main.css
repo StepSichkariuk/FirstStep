@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: #cdcdcd;
+}
+
+.footer{
+    background-color: #855f5f;
+}
+
+.header_btn{
+    transition: .3s;
+}
+
+.header_btn:hover{
+    background: #eeeeee;
+}
+
+.content{
+    display: flex;
+}
